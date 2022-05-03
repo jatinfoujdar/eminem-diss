@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body {
+    font-family: 'Noto Serif', serif;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --primary-color: #000408;
+    /* --light-gray: #000000;
+    --mild-gray:#FEE2E2; */
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: rgb(240, 7, 7);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+
+
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+.logo {
+    max-width: 7rem;
+    /* display: block; */
+    margin: auto;
+    text-align: left;
+    float: left;
+    padding-right: 1rem;
+}
+
+.navigation .link {
+    color: white;
+
+}
+
+
+.nav-pills {
+    text-align: left;
+
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+
+
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+
+    display: inline;
+    padding: 0.5rem 0.5rem;
+
+}
+
+.list-item-inline {
+    position: relative;
+}
+
+.list-item-inline::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #d41e27;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.list-item-inline:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.link {
+
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+
+}
+
+.hero {
+    padding-top: 2rem;
+
+
+
+}
+
+.hero .hero-img {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+
+}
+
+
+
+.fa-magnifying-glass {
+    font-size: 1.5rem;
+}
+
+.tagsss {
+    background-color: red;
+    color: white;
+
+    padding-left: 1ch;
+    padding-right: 1ch;
+
+}
+
+.section {
+    padding: 3rem;
+}
+
+.section h4 {
+    text-align: center;
+
+}
+
+.youtube {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.tftable {
+    padding: 2rem;
+
+    border: 1px solid rgb(6, 0, 0);
+
+}
+
+.tftable tr th {
+    background-color: #def2f4;
+    border: 1px solid black;
+    width: 3%;
+}
+
+/* 
+ .tftable th{
+    
+     border: 1px solid black;
+ } */
+ /* .fa-facebook-square{
+     font-size: 4rem;
+ }
+ .fa-twitter-square{
+    font-size: 4rem;
+} */
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 5px;
+   
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33%;
+    padding: 5px;
+  }
+
+  
+.footer{
+    background-image: url(file:///F:/eminem-diss/public/img/footer.png);
+    padding: 1rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem ;
+
+
+}
+
+.footer-header{
+    font-weight: bold;
+    
+}
+
+.footer .link{
+    color: white;
+    
+}
+
